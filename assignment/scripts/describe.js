@@ -72,8 +72,8 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 //We declare a variable called isStudent and set it's value to true (a boolean value).
-//We declare a variable called age an set it's value to 34.
-//We declare a variable called zip and set its value t0 55407.
+//We declare a variable called age and set it's value to 34.
+//We declare a variable called zip and set its value to 55407.
 //We check if isStudent is equal to (with exact match only) true, AND zip code is greater than 80000. The console will log 'You're a student on the West Coast!'.
 //Since iStudent is equal to true, but zip code is less than 80000 (zip code is set to 55407)...
 //We check if istudent is equal to false, OR age is less than 30. Since istudent is not equal to false or age is not less than 30...
@@ -159,8 +159,6 @@ if (mix === true) {
 
 /*
 let temp = 40;
-//FIX the variable is named const time and should be named time.
-//FIX time = 4;
 const time = 4;
 //FIX this compound conditional says EITHER of the conditions can be true ("or"). It should be BOTH sides of the condition must be true ("and").
 //FIX if (temp > 39 && time >= 4) {
@@ -176,10 +174,6 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
-//FIX this declares minAge as a constant. It should be declared a variable.
-//FIX let minAge = 21;
-//**note: I know that a constant variable is still a type of variable, but since the directions asked specifcally, I thought to include this... it does not change the outcome of the rest of the code in this excercise, so I thought to include it.
-const minAge = 21;
 
 //FIX the if statement checks if minAge is less than or equal to age. It should check if age is greater than or equal to minAge.
 //FIX if(minAge => age) {
