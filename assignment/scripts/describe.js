@@ -74,10 +74,10 @@ console.log(secret)
 //We declare a variable called isStudent and set it's value to true (a boolean value).
 //We declare a variable called age and set it's value to 34.
 //We declare a variable called zip and set its value to 55407.
-//We check if isStudent is equal to (with exact match only) true, AND zip code is greater than 80000. The console will log 'You're a student on the West Coast!'.
+//We check if iStudent is equal to (with exact match only) true, AND zip code is greater than 80000. The console will log 'You're a student on the West Coast!'.
 //Since iStudent is equal to true, but zip code is less than 80000 (zip code is set to 55407)...
-//We check if istudent is equal to false, OR age is less than 30. Since istudent is not equal to false or age is not less than 30...
-//We check if istudent is equal true. Since istudent is set to true and is equal to true...
+//We check if iStudent is equal to false, OR age is less than 30. Since iStudent is not equal to false or age is not less than 30...
+//We check if istudent is equal true. Since iStudent is set to true and is equal to true...
 //We console log "Welcome to Prime".
 //The last else statement is not ran, since the preceding condition (set as true) was executed.
 
@@ -160,7 +160,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-//FIX this compound conditional says EITHER of the conditions can be true ("or"). It should be BOTH sides of the condition must be true ("and").
+//FIX this compound conditional says EITHER of the conditions can be true ("or"). It should be that BOTH sides of the condition must be true (using the "and" logocal operator; &&).
 //FIX if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 if (temp > 39 || time >= 4) {
@@ -178,10 +178,10 @@ let age = 21;
 //FIX the if statement checks if minAge is less than or equal to age. It should check if age is greater than or equal to minAge.
 //FIX if(minAge => age) {
 if(minAge <= age) {
-//FIX if minAge is => 21, It should console log enter not no entry.
+//FIX if age is greater than or equal to minAge, It should console log "enter" not "no entry".
 //FIX console.log('enter');
   console.log('no entry');
-//FIX if minAge is => 21, It should console log no entery not not enter.
+//FIX if age is less than minAge, It should console log "no entery" not "enter".
 //FIX } else {
   console.log('no entery');
 } else {
