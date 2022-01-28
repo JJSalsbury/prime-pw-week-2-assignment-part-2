@@ -101,7 +101,6 @@ if (isStudent === true && zip > 80000 ) {
 
 
 
-
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code.
 // Some of the code will NOT match the description.
@@ -160,6 +159,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
 //FIX this compound conditional says EITHER of the conditions can be true ("or"). It should be that BOTH sides of the condition must be true (using the "and" logocal operator; &&).
 //FIX if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
@@ -174,6 +174,7 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+const minAge = 21;
 
 //FIX the if statement checks if minAge is less than or equal to age. It should check if age is greater than or equal to minAge.
 //FIX if(minAge => age) {
